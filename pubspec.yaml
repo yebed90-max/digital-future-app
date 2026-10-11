@@ -1,0 +1,23 @@
+name: digital_future_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive_flutter: ^1.1.0
+  http: ^1.2.0
+  path_provider: ^2.1.2
+  printing: ^5.11.1
+  pdf: ^3.10.7
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: 
